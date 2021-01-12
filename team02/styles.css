@@ -1,0 +1,46 @@
+body {
+    background-color: darkslategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    margin: 20px;
+    gap: 10px;
+}
+.gridDiv {
+    background-color: rgb(125, 161, 161);
+    text-align: center;
+    height: 25vh;
+    width: 30vw;
+}
+.gridDiv:hover {
+    font-weight: bold;
+}
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25%;
+}
+#one {
+    font-size: 1em;
+}
+#two {
+    font-size: 2em;
+}
+#three {
+    font-size: 3em;
+}
+button {
+    height: 30px;
+}
+
+label {
+    color: white;
+}
+input {
+    height: 20px;   
+}
