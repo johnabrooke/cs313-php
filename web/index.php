@@ -6,9 +6,10 @@
   <title>John's Homepage</title>
   <link rel="stylesheet" href="styles.css">
   <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-  <?php include("navbar.php"); ?>
+  
 </head>
 <body>
+<?php include("navbar.php"); ?>
   <div class="grid-container">
     <div class="grid-item">
       <img src="img/2Tim1_7_power_of_love.jpeg" 
