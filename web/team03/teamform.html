@@ -1,0 +1,66 @@
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
+</head>
+
+<body>
+    <header>
+        <div class="jumbotron">
+            <h1>Student Registration</h1>            
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a id="toggleMenu">&equiv;</a></li>
+            <li><a href="teamform.html" class="active">Profile</a></li>
+            <li><a href="submit.php" >Submission</a></li>
+        </ul>
+    </nav>
+
+<form action="submit.php" class="userform" method="post">
+    <fieldset>
+        <legend>Personal Info</legend>
+        <label>Name:</label>
+        <input id="inName" name="inName" type="text">
+
+        <label>Email:</label>
+        <input id="inEmail" name="inEmail" type="email">
+        <label>Credits: </label>
+        <input id="inCredits" type="number" min=0>
+    </fieldset>
+
+    <fieldset>
+        <legend>Degree</legend>
+        <label for="inMajor">Major: </label>
+        <input type="radio" name="inMajor" value="Computer Engineering"> Computer Engineering 
+        <input type="radio" name="inMajor" value="Computer information Technology"> Computer information Technology
+        <input type="radio" name="inMajor" value="Computer Science"> Computer Science 
+        <input type="radio" name="inMajor" value="Web Design and Development"> Web Design and Development 
+        <br>
+        <label for="inContinent">Continent</label>: </label>
+        <input id="inContinent" name="inContinent" required list="continent-list" />
+        <datalist id="continent-list">
+            <option value="North America"></option>
+            <option value="South America"></option>
+            <option value="Europe"></option>
+            <option value="Asia"></option>
+            <option value="Australia"></option>
+            <option value="Africa"></option>
+            <option value="Antarctica"></option>                                            
+        </datalist>        
+    </fieldset>
+
+    <fieldset>        
+        <label>Comments: </label>
+        <input type="textarea">
+    </fieldset>
+    <button>Submit</button>
+    <button>Cancel</button>
+</form>
+</body>
+</html>
