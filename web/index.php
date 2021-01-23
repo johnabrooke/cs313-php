@@ -12,12 +12,12 @@
 <?php include("navbar.php"); ?>
   <div class="grid-container">
     <div class="grid-item">
-      <img src="img/2Tim1_7_power_of_love.jpeg" 
-           alt="Quote from Elder Neil L. Andersen. Some will say, You don't understand my situation... 
-                I testify there is One who does understand.">
+      <img src="img/light_of_the_world_jesus_christ_medium.jpeg" alt="Headshot painting of Jesus Christ">
     </div>
     <div class="grid-item">
-      <img src="img/light_of_the_world_jesus_christ_medium.jpeg" alt="Jesus Christ headshot">
+      <img src="img/2Tim1_7_power_of_love.jpeg" 
+           alt="God hath not given us the spirit of fear, but of power, and of love, and of a sound mind. 
+                Second Timothy chapter 1 verse 7">
     </div>
     <div class="grid-item">
       <img src="img/nelson_conference_oct_2019_quote.png" 
